@@ -1,3 +1,6 @@
+/**
+ * 类加载过程
+ */
 public class TestDynamicLoad {
     static {
         System.out.println("*************load TestDynamicLoad************");

@@ -1,6 +1,9 @@
 import sun.misc.Launcher;
 import java.net.URL;
 
+/**
+ * 类加载器的分类
+ */
 public class TestJDKClassLoader {
     public static void main(String[] args) {
         System.out.println(String.class.getClassLoader()); //由于BootStrap ClassLoader是用c++写的，所以在返回该ClassLoader时会返回null
